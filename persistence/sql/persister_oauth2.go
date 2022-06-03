@@ -226,7 +226,7 @@ func (p *Persister) findSessionBySignature(ctx context.Context, rawSignature str
 	var fr fosite.Requester
 
 	return fr, p.transaction(ctx, func(ctx context.Context, c *pop.Connection) error {
-		err := p.Connection(ctx).Where("signature = ?", rawSignature).First(&r)
+		err := p.Connection(ctx).Where("signat = ?", rawSignature).First(&r)
 		if errors.Is(err, sql.ErrNoRows) {
 			return errorsx.WithStack(fosite.ErrNotFound)
 		} else if err != nil {
