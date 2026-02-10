@@ -19,12 +19,12 @@
     "format:check": "prettier --check ${npm_package_config_prettierTarget}"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-alpha.415a7973f",
-    "@docusaurus/plugin-content-docs": "2.0.0-alpha.415a7973f",
-    "@docusaurus/plugin-content-pages": "2.0.0-alpha.415a7973f",
-    "@docusaurus/plugin-sitemap": "2.0.0-alpha.415a7973f",
-    "@docusaurus/theme-classic": "2.0.0-alpha.415a7973f",
-    "@docusaurus/theme-search-algolia": "2.0.0-alpha.415a7973f",
+    "@docusaurus/core": "3.9.2",
+    "@docusaurus/plugin-content-docs": "3.9.2",
+    "@docusaurus/plugin-content-pages": "3.9.2",
+    "@docusaurus/plugin-sitemap": "3.9.2",
+    "@docusaurus/theme-classic": "3.9.2",
+    "@docusaurus/theme-search-algolia": "3.9.2",
     "classnames": "2.2.6",
     "file-loader": "^6.1.0",
     "mermaid": "8.6.4",
